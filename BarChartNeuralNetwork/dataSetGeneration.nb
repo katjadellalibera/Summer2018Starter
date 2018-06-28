@@ -1,0 +1,92 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2844,         84]
+NotebookOptionsPosition[      2154,         65]
+NotebookOutlinePosition[      2494,         80]
+CellTagsIndexPosition[      2451,         77]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["data set generation", "Title",
+ CellChangeTimes->{{3.739120986346258*^9, 
+  3.7391209895530105`*^9}},ExpressionUUID->"7b192a6d-d8ec-4298-9345-\
+3d7801f5bb15"],
+
+Cell["\<\
+End output: a giant collection of bar charts with random values for style, \
+data, labels etc.
+Useful functions: SeedRandom, BarChart
+Sub-problems: generating datasets to graph, generating the random styles\
+\>", "Text",
+ CellChangeTimes->{{3.7391209922439456`*^9, 3.7391210345533977`*^9}, {
+  3.7391210659870324`*^9, 
+  3.7391211348102274`*^9}},ExpressionUUID->"65995eea-51d6-4a6b-bd1d-\
+b8b903546332"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"SeedRandom", "[", "1234", "]"}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"**", " ", "making"}], " ", "the", " ", "code", " ", "runable", 
+    " ", "more", " ", "than", " ", "once"}], "***)"}]}], "\n", 
+ RowBox[{"chartElementFunctionOptions", "=", 
+  RowBox[{"{", "\n", "po", "\n"}]}]}], "Code",
+ CellChangeTimes->{{3.739121145647482*^9, 3.7391211931933403`*^9}, {
+   3.7391958933605413`*^9, 3.739195911701942*^9}, {3.7391960668149776`*^9, 
+   3.739196071192546*^9}, 3.739196134604599*^9, {3.7391961752699165`*^9, 
+   3.7391961935029526`*^9}},ExpressionUUID->"0f208b97-f6b4-451a-875d-\
+564517b21d57"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.739121069105861*^9, 
+  3.739121073226108*^9}},ExpressionUUID->"b260c3e5-ed97-4348-b8f3-\
+8241b812d847"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.7391211985874777`*^9, 
+  3.7391212106976967`*^9}},ExpressionUUID->"7ba46593-c174-41b6-8eb6-\
+ff1da021750a"]
+}, Open  ]]
+},
+WindowSize->{759, 677},
+WindowMargins->{{Automatic, 5}, {Automatic, 2}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 164, 3, 96, "Title",ExpressionUUID->"7b192a6d-d8ec-4298-9345-3d7801f5bb15"],
+Cell[747, 27, 413, 9, 78, "Text",ExpressionUUID->"65995eea-51d6-4a6b-bd1d-b8b903546332"],
+Cell[1163, 38, 661, 14, 105, "Code",ExpressionUUID->"0f208b97-f6b4-451a-875d-564517b21d57"],
+Cell[1827, 54, 152, 3, 28, "Input",ExpressionUUID->"b260c3e5-ed97-4348-b8f3-8241b812d847"],
+Cell[1982, 59, 156, 3, 28, "Input",ExpressionUUID->"7ba46593-c174-41b6-8eb6-ff1da021750a"]
+}, Open  ]]
+}
+]
+*)
+
